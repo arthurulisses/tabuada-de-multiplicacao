@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body{
+    /*background-color: rgb(70,142,236);*/
+    background-image: url(quadro-negro-e-quadro-negro-fundo-de-papel-de-parede-escuro_28629-1125.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font: normal 15pt  arial;
+}
+header{
+     color: white;
+     text-align: center;
+     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
+}
+section > div > p {
+    text-align: center;
+}
+section > div > select > option {
+    padding: 6px;
+}
+section > div > img {
+    width: 200px;
+}
+footer > p {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
